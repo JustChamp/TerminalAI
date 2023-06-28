@@ -264,7 +264,7 @@ func createConfig(dir string, chatId string) {
 	}
 
 }
-
+/*
 func loading(stop *bool) {
 	spinChars := []string{"⣾ ", "⣽ ", "⣻ ", "⢿ ", "⡿ ", "⣟ ", "⣯ ", "⣷ "}
 	i := 0
@@ -277,7 +277,7 @@ func loading(stop *bool) {
 		time.Sleep(80 * time.Millisecond)
 	}
 }
-
+*/
 func update() {
 
 	if runtime.GOOS == "windows" {
