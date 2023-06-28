@@ -1,19 +1,17 @@
 <p align="center"><img src="tgpt.svg"></p>
 
-# Terminal GPT (tgpt) 🚀
+# TerminalAI (Terminal GPT) 🚀
 
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/aandrew-me/tgpt)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/aandrew-me/tgpt)
-![AUR version](https://img.shields.io/aur/version/tgpt-bin?label=AUR%3A%20tgpt-bin)
-![Chocolatey Version](https://img.shields.io/chocolatey/v/tgpt)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/JustChamp/TerminalAI)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/JustChamp/TerminalAI)
 <!-- [![Go Report Card](https://goreportcard.com/badge/github.com/aandrew-me/tgpt)](https://goreportcard.com/report/github.com/aandrew-me/tgpt) -->
 
-tgpt is a cross-platform cli (command-line) tool that lets you use ChatGPT 3.5 in Terminal **without API KEYS**. It communicates with the Backend of [Bai chatbot](https://chatbot.theb.ai). Its written in Go.
+TerminalAI is a cross-platform cli (command-line) tool that lets you use ChatGPT 3.5 in Terminal **without API KEYS**. It communicates with the Backend of [Bai chatbot](https://chatbot.theb.ai). Its written in Go.
 
 # Usage 💬
 
 ```
-tgpt "What can you do?"
+TerminalAI "What can you do?"
 ```
 
 ![demo](https://user-images.githubusercontent.com/66430340/233759296-c4cf8cf2-0cab-48aa-9e84-40765b823282.gif)
@@ -27,59 +25,30 @@ The default download location is /usr/local/bin. But you can change it in the co
 You can download with this command :-
 
 ```
-curl -sSL https://raw.githubusercontent.com/aandrew-me/tgpt/main/install | bash -s /usr/local/bin
-```
-
-If you are using Arch Linux you can install the [AUR package](https://aur.archlinux.org/packages/tgpt-bin) with `paru`:
-
-```
-paru -S tgpt-bin
-```
-
-Or with `yay`
-
-```
-yay -S tgpt-bin
+curl -sSL https://raw.githubusercontent.com/JustChamp/TerminalAI/main/install | bash -s /usr/local/bin
 ```
 
 ## With Go
 
 ```
-go install github.com/aandrew-me/tgpt@latest
+go install github.com/JustChamp/TerminalAI@latest
 ```
 
 ## Windows 🪟
 
 -   ### Chocolatey
 
-    It can be installed from [Chocolatey](https://community.chocolatey.org/packages/tgpt) with
+    It can be installed from [Chocolatey](https://community.chocolatey.org/packages/TerminalAI) with
 
     ```
-    choco install tgpt
+    choco install TerminalAI
     ```
 
 -   ### Scoop
     Package can be installed with [scoop](https://scoop.sh/) with the following command -
 
     ```
-    scoop install https://raw.githubusercontent.com/aandrew-me/tgpt/main/tgpt.json
+    scoop install https://raw.githubusercontent.com/JustChamp/TerminalAI/main/TerminalAI.json
     ```
-
-<!-- -   ### PowerShell
-    Open your PowerShell as Admin and run the following command:
-    
-    ```
-    Invoke-WebRequest https://raw.githubusercontent.com/aandrew-me/tgpt/main/install-win.ps1 -OutFile "$PWD\install-win.ps1";  .\install-win.ps1
-    ```
-
-    If you receive **execution of scripts is disabled on this system** error, run this command (and confirm with a "Y"):
-    
-    ```
-    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned; Invoke-WebRequest https://raw.githubusercontent.com/aandrew-me/tgpt/main/install-win.ps1 -OutFile "$PWD\install-win.ps1";  .\install-win.ps1
-    ```  -->
-
-## From Release
-
-You can download an executable for your Operating System, then rename it to tgpt or whatever you want. Then you can execute it by typing `./tgpt` being in that directory. Or you can add it to the Environmental Variable **PATH** and then you can execute it by just typing `tgpt`.
 
 ### If you liked this project, give it a star! ⭐
